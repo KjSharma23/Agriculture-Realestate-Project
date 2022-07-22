@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Contact Form</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </head>
+    <style>
+        .contact-us {
+    padding: 70px 0px;
+    background: #443834;
+}
+.section-title h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    border-bottom: 5px solid #f5eae7;
+    padding-bottom: 10px;
+    display: inline-block;
+
+.section-title p {
+    color: #e8e8e8;
+    margin-bottom: 30px;
+}
+.contact-us input,
+.contact-us textarea {
+    background: #fafafa;
+}
+.contact-us textarea {
+    min-height: 188px;
+    max-width: 100%;
+}
+.contact-us .map {
+    overflow: hidden;
+    border-radius: 4px;
+}
+    </style>
+    <body>
+        <!-- Contact Us Section -->
+        <section class="contact-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="section-title">
+                            <h2>Contact Us</h2>
+                            <p>you can contact us if there is any query</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7">
+                        <form action="/" class="mb-4 mb-lg-0">
+                            <div class="form-row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" />
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" />
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" placeholder="Type Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-light">Contact Now</button>
+                        </form>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="map">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.78055453616!2d85.80414731439636!3d20.35068231595669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1908e064769e73%3A0x9288172f3a98c7a4!2sSilicon%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1657781429946!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+    </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <!-- google icons     -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .md-36 {
+            font-size: 36px;
+        }
+
+        div#carousel-example-generic {
+            position:relative;
+        }
+
+        div.form-group {
+            position:absolute;
+            z-index:9999999;
+        
+        }
+
+        .search-bar{
+            background: rgb(255, 255, 255);
+        }
+
+        .search-container{
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div id="carouselExampleInterval" class="carousel slide h-100 d-flex align-items-center justify-content-center" data-bs-ride="carousel">
+        <div class="form-group container search-container">
+            <form class="d-flex " role="search">
+                <input class="form-control me-2 search-bar" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-secondary" type="submit">Search</button>
+            </form>
+        </div>
+        <div class="carousel-inner" style="max-height: 680px;">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="farm1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="farm2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="farm3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</body>
+</html>
